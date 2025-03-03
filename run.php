@@ -42,7 +42,7 @@ else{
 
             $show=$_POST['weather'];
 
-            $url='https://api.openweathermap.org/data/2.5/weather?q='.$show.'&appid=608b9baeb2473db0f0f7412cdb69db50';
+            $url='https://api.openweathermap.org/data/2.5/weather?q='.$show.'&appid={API KEY}'; //Get url ->https://openweathermap.org/
 
             $api=curl($url);
             
